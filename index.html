@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <h1>Victor's Pizzeria</h1>
+        <form>
+            <fieldset>
+                <legend>Custonmer:</legend>
+                <div class="row">
+                    <div>
+                        <label for="firstname">First</label>
+                        <input id="firstname" name="first_name" type="text">
+                    </div>
+                    <div>
+                        <label for="lastname">Last</label>
+                        <input id="lastname" name="last_name" type="text">
+                    </div>
+                </div>
+            </fieldset>
+            <div class="row">
+                <fieldset>
+                    <legend>Order type:</legend>
+                    <div>
+                        <input type="radio" id="pickup" name="ordertype">
+                        <label for="pickup">Pickup</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="delivery" name="ordertype">
+                        <label for="delivery">Delivery</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="here" name="ordertype">
+                        <label for="here">For here</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="go" name="ordertype">
+                        <label for="go">To go</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Address for delivery:</legend>
+                    <div>
+                        <input id="address" name="address" type="text">
+                    </div>
+                </fieldset>
+            </div>
+            <div class="row">
+                <fieldset>
+                    <legend>Pizza order(s):</legend>
+                    <div>
+                        <input type="checkbox" id="pepperoni" name="pepperoni" value="pepperoni">
+                        <label for="pepperoni">Pepperoni Pizza</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="pineapple" name="pineapple" value="pineapple">
+                        <label for="pineapple">Hawaiian Pizza</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="supreme" name="supreme" value="supreme">
+                        <label for="supreme">Supreme Pizza</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="meat" name="meat" value="meat">
+                        <label for="meat">Meat Pizza</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cheese" name="cheese" value="cheese">
+                        <label for="cheese">Cheese Pizza</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="veggie" name="veggie" value="veggie">
+                        <label for="veggie">Veggie Pizza</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Size of order(s):</legend>
+                    <div>
+                        <input type="radio" id="small" name="small">
+                        <label for="small">Small</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="medium" name="medium">
+                        <label for="medium">Medium</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="large" name="large">
+                        <label for="large">Large
+                        </label>
+                    </div>
+                </fieldset>
+            </div>
+            <fieldset>
+                <legend>Would you like to choose or add toppings?</legend>
+                <div>
+                    <input type="radio" id="add" name="choose">
+                    <label for="add">Add Toppings</label>
+                </div>
+                <div>
+                    <input type="radio" id="choose" name="choose">
+                    <label for="choose">Choose Toppings</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Toppings:</legend>
+                <div>
+                    <input type="checkbox" id="pepperonitop" name="pepperonitop" value="pepperonitop">
+                    <label for="pepperonitop">Pepperoni</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="mushroom" name="mushroom" value="mushroom">
+                    <label for="mushroom">Mushroom</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="excheese" name="excheese" value="excheese">
+                    <label for="excheese">Extra Cheese</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="sausage" name="sausage" value="sausage">
+                    <label for="sausage">Sausage</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="onion" name="onion" value="onion">
+                    <label for="onion">Onion</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="black olives" name="black olives" value="black olives">
+                    <label for="black olives">Black Olives</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="green pepper" name="green pepper" value="green pepper">
+                    <label for="green pepper">Green pepper</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="tomato" name="tomato" value="tomato">
+                    <label for="tomato">Tomato</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="garlic" name="garlic" value="garlic">
+                    <label for="garlic">Garlic</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Would you like to have half of your pizza be one combination and the other half another combination</legend>
+                <div>
+                    <input type="radio" id="yes" name="customerans">
+                    <label for="yes">Yes</label>
+                </div>
+                <div>
+                    <input type="radio" id="no" name="customerans">
+                    <label for="no">No</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Half of Pizza:</legend>
+                <div>
+                    <input type="radio" id="pepperonihalf" name="pepperonihalf">
+                    <label for="pepperonihalf">Pepperoni Half</label>
+                </div>
+                <div>
+                    <input type="radio" id="pineapplehalf" name="pineapplehalf">
+                    <label for="pineapplehalf">Hawaiian Half</label>
+                </div>
+                <div>
+                    <input type="radio" id="supremehalf" name="supremehalf">
+                    <label for="supreme">Supreme Half</label>
+                </div>
+                <div>
+                    <input type="radio" id="meathalf" name="meathalf">
+                    <label for="meat">Meat Half</label>
+                </div>
+                <div>
+                    <input type="radio" id="cheesehalf" name="cheesehalf">
+                    <label for="cheese">Cheese Half</label>
+                </div>
+                <div>
+                    <input type="radio" id="veggiehalf" name="veggiehalf">
+                    <label for="veggie">Veggie Half</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Other Half of Pizza:</legend>
+                <div>
+                    <input type="radio" id="pepperonihalf" name="pepperonihalf">
+                    <label for="pepperonihalf">Pepperoni Half</label>
+                </div>
+                <div>
+                    <input type="radio" id="pineapplehalf" name="pineapplehalf">
+                    <label for="pineapplehalf">Hawaiian Half</label>
+                </div>
+                <div>
+                    <input type="radio" id="supremehalf" name="supremehalf">
+                    <label for="supreme">Supreme Half</label>
+                </div>
+                <div>
+                    <input type="radio" id="meathalf" name="meathalf">
+                    <label for="meat">Meat Half</label>
+                </div>
+                <div>
+                    <input type="radio" id="cheesehalf" name="cheesehalf">
+                    <label for="cheese">Cheese Half</label>
+                </div>
+                <div>
+                    <input type="radio" id="veggiehalf" name="veggiehalf">
+                    <label for="veggie">Veggie Half</label>
+                </div>
+            </fieldset>
+            <button type="submit">Submit Order</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
